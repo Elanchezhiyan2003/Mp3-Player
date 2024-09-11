@@ -4,6 +4,7 @@
 //     audio.play()
 // }
 // play.addEventListener("click" , playMusic);
+
 let play = document.getElementById("play");
 let audio = new Audio("Drum.mp3");  
 let isPlaying = false;  
@@ -78,63 +79,6 @@ function Music5() {
 }
 play5.addEventListener("click", Music5);
 
-let play6 = document.getElementById("play6");
-let audio6 = new Audio("sparrow.mp3");  
-let isPlaying6= false;  
-
-function Music6() {
-    if (isPlaying6) {
-        audio6.pause();
-    } else {
-        audio6.play();  
-    }
-    isPlaying6 = !isPlaying6;  
-}
-play6.addEventListener("click", Music6);
-
-let play7 = document.getElementById("play7");
-let audio7 = new Audio("sample.mp3");  
-let isPlaying7= false;  
-
-function Music7() {
-    if (isPlaying7) {
-        audio7.pause();
-    } else {
-        audio7.play();  
-    }
-    isPlaying7 = !isPlaying7;  
-}
-play7.addEventListener("click", Music7);
-
-
-
-let play8 = document.getElementById("play8");
-let audio8 = new Audio("sample.mp3");  
-let isPlaying8 = false;  
-
-function Music() {
-    if (isPlaying8) {
-        audio.pause();  
-    } else {
-        audio.play();  
-    }
-    isPlaying8 = !isPlaying8;  
-}
-play8.addEventListener("click", Music);
-
-let play9 = document.getElementById("play9");
-let audio9 = new Audio("sample.mp3");  
-let isPlaying9 = false;  
-
-function Music() {
-    if (isPlaying9) {
-        audio.pause();
-    } else {
-        audio.play(); 
-    }
-    isPlaying9 = !isPlaying9;  
-}
-play9.addEventListener("click", Music);
 
 
 
